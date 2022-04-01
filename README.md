@@ -1,3 +1,10 @@
+ Essa é uma versão adaptada do projeto, visando a geração de dados para cidades em Brasileiras
+
+Há um notebook para rodar os Scripts no Google Colab: https://colab.research.google.com/drive/1qSWEZYsFpG2hSEyrb2JwmQs2oZNi8fVE?usp=sharing 
+
+
+-------------------------------------------------------------------------------
+
 # SCRIPTS de generación de datos para #LasCallesDeLasMujeres
 
 Read this in ENGLISH here: [README.en.md](https://github.com/geochicasosm/data_scripts_lascallesdelasmujeres/blob/master/README.en.md)
