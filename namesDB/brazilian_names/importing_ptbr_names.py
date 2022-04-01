@@ -1,8 +1,11 @@
 import os
 import pandas as pd
 
+from os.path import expanduser
+homepath = expanduser("~")
+
 # # loading IBGE data, source: https://brasil.io/dataset/genero-nomes/files/
-ptbr_names_path = "/home/kaue/data_scripts_lascallesdelasmujeres/namesDB/nomes.csv"
+ptbr_names_path = os.path.join(homepath,'/data_scripts_lascallesdelasmujeres/namesDB/nomes.csv') # considering that you cloned at homefolder
 
 names_dataframe = pd.read_csv(ptbr_names_path)
 
@@ -12,9 +15,9 @@ F_NAMES = names_dataframe.loc[names_dataframe['classification'] == 'F']
 M_NAMES = names_dataframe.loc[names_dataframe['classification'] == 'M']
 
 # loading from original data from @lascallesdelasmujeres 
-list_mujeres_path = '/home/kaue/data_scripts_lascallesdelasmujeres/namesDB/list_mujeres.csv'
+list_mujeres_path = os.path.join(homepath,'/data_scripts_lascallesdelasmujeres/namesDB/list_mujeres.csv')
 
-list_hombres_path = '/home/kaue/data_scripts_lascallesdelasmujeres/namesDB/list_hombres.csv'
+list_hombres_path = os.path.join(homepath,'/data_scripts_lascallesdelasmujeres/namesDB/list_hombres.csv')
 
 mujeres_df = pd.read_csv(list_mujeres_path,header=None,names=['name'])
 
