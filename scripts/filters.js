@@ -99,7 +99,7 @@ const filters = {
       // alguns logradouros mais comuns: http://suporte.quarta.com.br/LayOuts/eSocial/Tabelas/Tabela_20.htm
       'rua',
       'Rua',
-      'RUA','R.','R','r','r.',
+      'RUA','R.','r.',
       'Travessa',
       'travessa',
       'Travessa,','tr.','tr','TR','Tr',
