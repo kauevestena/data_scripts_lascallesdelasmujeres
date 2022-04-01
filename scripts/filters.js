@@ -109,8 +109,7 @@ const filters = {
       'viela','Viela','Acesso','acesso','Beco','beco','Calcada','calçada','calcada','calçada',
       'Via','via','Estrada','esrada','Ramal','ramal','passagem','Passagem','Ciclovia','ciclovia','Corredor','corredor','Ladeira','ladeira','Paralela','paralela','passeio','Passeio'
     ],
-    filter02: ['de las ', 'de la ', 'de los ', 'de lo ', 'del ', 'de ', 'en ',
-    'da','do','de'],
+    filter02: ['de las ', 'de la ', 'de los ', 'de lo '],
   },
 };
 
