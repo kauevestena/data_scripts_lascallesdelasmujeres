@@ -1,7 +1,6 @@
  Essa é uma versão adaptada do projeto, visando a geração de dados para cidades Brasileiras
 
-[Há um notebook para rodar os Scripts no Google Colab](https://colab.research.google.com/drive/1qSWEZYsFpG2hSEyrb2JwmQs2oZNi8fVE?usp=sharing 
-) 
+[Há um notebook para rodar os Scripts no Google Colab](https://colab.research.google.com/gist/mapeadoreslivresufpr/d28aa5a55850ca89c9e2920ded9a755d/las_calles_de_las_mujeres_processing_part1.ipynb) 
 
 -------------------------------------------------------------------------------
 
